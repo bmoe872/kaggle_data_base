@@ -10,3 +10,9 @@ There were also various things to make sure that iPython worked correctly within
 This uses the Titanic Data from Kaggle, which is within the `data` directory.
 Although, the way it's written right now the data could easily be rewritten for
 different files.
+
+To use, it's recommended you use a python virtualenv.
+To create: `virtualenv -p python3 envname`
+
+Then, within that directory clone this project. This project also requires that
+you use ipython to run, so to run: `ipython notebook.py `
